@@ -1,0 +1,29 @@
+{
+  "name": "airbnb",
+  "version": "1.0.0",
+  "description": "Front end example test project for airbnb.com",
+  "homepage": "https://www.airbnb.com/",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test:playwright": "playwright test src/tests/playwright/tests --config=src/tests/playwright",
+    "test:playwright:debug": "playwright test src/tests/playwright/tests --config=src/tests/playwright --debug"
+  },
+  "author": {
+    "name": "Adi Gal"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.37.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.47.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-playwright": "^0.15.3",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.2",
+    "typescript": "^5.1.6"
+  }
+}
